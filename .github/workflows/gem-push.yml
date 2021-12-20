@@ -1,9 +1,11 @@
 name: Ruby Gem
 
 on:
-  push:
-    branches: [ main ]
-  pull_request:
+  workflow_run:
+    workflows:
+      - Ruby
+    types:
+      - completed
     branches: [ main ]
 
 jobs:
@@ -14,6 +16,7 @@ jobs:
       contents: read
       packages: write
 
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
     - uses: actions/checkout@v2
     - name: Set up Ruby 2.6
