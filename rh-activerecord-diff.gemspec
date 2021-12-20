@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Simple ActiveRecord diff functionality}
   spec.description   = %q{Simple ActiveRecord diff functionality}
   spec.homepage      = 'https://github.com/hayashima/rh-activerecord-diff'
-  # spec.license       = "MIT"
+  spec.license       = "CC0-1.0"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.6.0")
 
   # spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
