@@ -7,3 +7,7 @@
 /spec/reports/
 /tmp/
 .ruby-version
+/gemfiles/*.gemfile.lock
+/gemfiles/.bundle
+*.sqlite3
+Gemfile.lock
