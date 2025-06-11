@@ -28,5 +28,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency('activerecord', '< 7.2.0','>= 5.2.0')
+  spec.add_development_dependency('concurrent-ruby', '1.3.4')
 
 end
