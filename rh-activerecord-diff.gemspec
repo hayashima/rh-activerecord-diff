@@ -32,5 +32,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency('mutex_m', '~> 0.1')
   spec.add_development_dependency('base64', '~> 0.1')
   spec.add_development_dependency('bigdecimal', '~> 3.0' )
+  spec.add_development_dependency('rake', '~> 13.0')
+  spec.add_development_dependency('sqlite3', '< 3.0', '>= 1.4.0')
 
 end
