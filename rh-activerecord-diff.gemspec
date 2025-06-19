@@ -3,8 +3,8 @@ require_relative 'lib/active_record/diff/version'
 Gem::Specification.new do |spec|
   spec.name          = "rh-activerecord-diff"
   spec.version       = ActiveRecord::Diff::VERSION
-  spec.authors       = ["patorash"]
-  spec.email         = ["chariderpato@gmail.com"]
+  spec.authors       = ["patorash", "tokai3594"]
+  spec.email         = ["chariderpato@gmail.com", "t-shinohara@rhizome-e.com"]
 
   spec.summary       = %q{Simple ActiveRecord diff functionality}
   spec.description   = %q{Simple ActiveRecord diff functionality}
