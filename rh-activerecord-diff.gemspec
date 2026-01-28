@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
   # spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency('activerecord', '< 7.2.0','>= 5.2.0')
+  spec.add_dependency('activerecord', '< 8.2.0','>= 5.2.0')
   spec.add_development_dependency('concurrent-ruby', '1.3.4')
   spec.add_development_dependency('mutex_m', '~> 0.1')
   spec.add_development_dependency('base64', '~> 0.1')
